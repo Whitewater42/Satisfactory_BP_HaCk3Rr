@@ -2,6 +2,10 @@
 
 # Satisfactory Blueprint Hacker — Web
 
+> If you use this code, the techniques it documents, or blueprints generated
+> by it in something you're sharing publicly, a credit/link back to this repo
+> would be genuinely appreciated — not required, just a nice thing to do.
+
 A browser-based tool for editing and generating [Satisfactory](https://www.satisfactorygame.com/)
 blueprint files (`.sbp`/`.sbpcfg` pairs) at the binary save-data level. This
 is **not** a mod and doesn't touch the game itself — it reads/writes the same
