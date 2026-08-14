@@ -1,0 +1,38 @@
+{
+  "id": "equipment_kit",
+  "displayName": "Personal Equipment Kit",
+  "description": "Hand equipment plus a wide variety of ammo and fuel types, all free, packed into a Personal Storage box. Gear paths from resolved_paths.json (equipment_box3, previously used by scripts/build_equipment_box.mjs). Ammo/fuel paths newly resolved against data/recipes.json this session. Stack sizes for the new ammo/fuel variants are inferred from their confirmed sibling items (Iron Rebar=100, Nobelisk=50, Rifle Ammo=500, Packaged Fuel family=100) since en-US.json has no explicit mStackSize entry for most of them under this project's usual lookup path - flagged as an assumption, not independently confirmed, same caveat pattern as other unconfirmed stack sizes in this project. Hoverpack/Zipline/Blade Runners/Rifle Ammo paths were found wrong this session (missing a 'Resource/' folder segment vs. the goz3rr authoritative reference / a genuinely different folder for Rifle Ammo) - fixed here and in data/resolved_paths.json. Nobelisk Detonator and Rebar Gun added (ammo existed for both with no gun to fire them).",
+  "items": [
+    { "name": "Blade Runners", "path": "/Game/FactoryGame/Resource/Equipment/JumpingStilts/BP_EquipmentDescriptorJumpingStilts.BP_EquipmentDescriptorJumpingStilts_C", "stackSize": 1, "count": 1, "tags": ["mobility"] },
+    { "name": "Jetpack", "path": "/Game/FactoryGame/Resource/Equipment/JetPack/BP_EquipmentDescriptorJetPack.BP_EquipmentDescriptorJetPack_C", "stackSize": 1, "count": 1, "tags": ["mobility"] },
+    { "name": "Hoverpack", "path": "/Game/FactoryGame/Resource/Equipment/HoverPack/BP_EquipmentDescriptorHoverPack.BP_EquipmentDescriptorHoverPack_C", "stackSize": 1, "count": 1, "tags": ["mobility"] },
+    { "name": "Zipline", "path": "/Game/FactoryGame/Resource/Equipment/Zipline/BP_EqDescZipLine.BP_EqDescZipLine_C", "stackSize": 1, "count": 1, "tags": ["mobility"] },
+    { "name": "Xeno-Basher", "path": "/Game/FactoryGame/Resource/Equipment/StunSpear/BP_EquipmentDescriptorStunSpear.BP_EquipmentDescriptorStunSpear_C", "stackSize": 1, "count": 1, "tags": ["offence"] },
+    { "name": "Rifle", "path": "/Game/FactoryGame/Resource/Equipment/Rifle/BP_EquipmentDescriptorRifle.BP_EquipmentDescriptorRifle_C", "stackSize": 1, "count": 1, "tags": ["offence"] },
+    { "name": "Rebar Gun", "path": "/Game/FactoryGame/Resource/Equipment/NailGun/Desc_RebarGunProjectile.Desc_RebarGunProjectile_C", "stackSize": 1, "count": 1, "tags": ["offence"] },
+    { "name": "Nobelisk Detonator", "path": "/Game/FactoryGame/Resource/Equipment/NobeliskDetonator/BP_EquipmentDescriptorNobeliskDetonator.BP_EquipmentDescriptorNobeliskDetonator_C", "stackSize": 1, "count": 1, "tags": ["boomboom"] },
+    { "name": "Chainsaw", "path": "/Game/FactoryGame/Equipment/Chainsaw/Desc_Chainsaw.Desc_Chainsaw_C", "stackSize": 1, "count": 1, "tags": [] },
+    { "name": "Medicinal Inhaler", "path": "/Game/FactoryGame/Resource/Equipment/Medkit/Desc_Medkit.Desc_Medkit_C", "stackSize": 50, "count": 250, "tags": [] },
+
+    { "name": "Rifle Ammo", "path": "/Game/FactoryGame/Resource/Parts/CartridgeStandard/Desc_CartridgeStandard.Desc_CartridgeStandard_C", "stackSize": 500, "count": 2500, "tags": ["offence"] },
+    { "name": "Turbo Rifle Ammo", "path": "/Game/FactoryGame/Equipment/Rifle/Ammo/Desc_CartridgeChaos.Desc_CartridgeChaos_C", "stackSize": 500, "count": 1000, "tags": ["offence"] },
+    { "name": "Homing Rifle Ammo", "path": "/Game/FactoryGame/Equipment/Rifle/Ammo/Desc_CartridgeSmartProjectile.Desc_CartridgeSmartProjectile_C", "stackSize": 500, "count": 1000, "tags": ["offence"] },
+
+    { "name": "Iron Rebar", "path": "/Game/FactoryGame/Resource/Parts/SpikedRebar/Desc_SpikedRebar.Desc_SpikedRebar_C", "stackSize": 100, "count": 400, "tags": ["offence"] },
+    { "name": "Stun Rebar", "path": "/Game/FactoryGame/Equipment/RebarGun/Ammo/Desc_Rebar_Stunshot.Desc_Rebar_Stunshot_C", "stackSize": 100, "count": 200, "tags": ["offence"] },
+    { "name": "Shatter Rebar", "path": "/Game/FactoryGame/Equipment/RebarGun/Ammo/Desc_Rebar_Spreadshot.Desc_Rebar_Spreadshot_C", "stackSize": 100, "count": 200, "tags": ["offence"] },
+    { "name": "Explosive Rebar", "path": "/Game/FactoryGame/Equipment/RebarGun/Ammo/Desc_Rebar_Explosive.Desc_Rebar_Explosive_C", "stackSize": 100, "count": 200, "tags": ["offence"] },
+
+    { "name": "Nobelisk", "path": "/Game/FactoryGame/Resource/Parts/NobeliskExplosive/Desc_NobeliskExplosive.Desc_NobeliskExplosive_C", "stackSize": 50, "count": 100, "tags": ["boomboom"] },
+    { "name": "Gas Nobelisk", "path": "/Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Desc_NobeliskGas.Desc_NobeliskGas_C", "stackSize": 50, "count": 100, "tags": ["boomboom"] },
+    { "name": "Pulse Nobelisk", "path": "/Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Desc_NobeliskShockwave.Desc_NobeliskShockwave_C", "stackSize": 50, "count": 100, "tags": ["boomboom"] },
+    { "name": "Cluster Nobelisk", "path": "/Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Desc_NobeliskCluster.Desc_NobeliskCluster_C", "stackSize": 50, "count": 100, "tags": ["boomboom"] },
+    { "name": "Nuke Nobelisk", "path": "/Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Desc_NobeliskNuke.Desc_NobeliskNuke_C", "stackSize": 50, "count": 50, "tags": ["boomboom"] },
+
+    { "name": "Packaged Fuel", "path": "/Game/FactoryGame/Resource/Parts/Fuel/Desc_Fuel.Desc_Fuel_C", "stackSize": 100, "count": 500, "tags": ["mobility"] },
+    { "name": "Packaged Turbofuel", "path": "/Game/FactoryGame/Resource/Parts/Turbofuel/Desc_TurboFuel.Desc_TurboFuel_C", "stackSize": 100, "count": 500, "tags": ["mobility"] },
+    { "name": "Packaged Rocket Fuel", "path": "/Game/FactoryGame/Resource/Parts/RocketFuel/Desc_PackagedRocketFuel.Desc_PackagedRocketFuel_C", "stackSize": 100, "count": 300, "tags": ["mobility"] },
+    { "name": "Packaged Ionized Fuel", "path": "/Game/FactoryGame/Resource/Parts/IonizedFuel/Desc_PackagedIonizedFuel.Desc_PackagedIonizedFuel_C", "stackSize": 100, "count": 300, "tags": ["mobility"] },
+    { "name": "Packaged Liquid Biofuel", "path": "/Game/FactoryGame/Resource/Parts/BioFuel/Desc_PackagedBiofuel.Desc_PackagedBiofuel_C", "stackSize": 100, "count": 300, "tags": ["mobility"] }
+  ]
+}

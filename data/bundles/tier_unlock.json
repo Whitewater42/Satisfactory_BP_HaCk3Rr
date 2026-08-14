@@ -1,0 +1,201 @@
+{
+  "id": "tier_unlock",
+  "displayName": "Tier/HUB Milestone Unlock",
+  "description": "All 42 EST_Milestone (HUB tier) node costs, no filtering needed.",
+  "items": [
+    {
+      "name": "Modular Frame",
+      "path": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
+      "stackSize": 50,
+      "count": 1075
+    },
+    {
+      "name": "Rotor",
+      "path": "/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C",
+      "stackSize": 100,
+      "count": 550
+    },
+    {
+      "name": "Concrete",
+      "path": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+      "stackSize": 500,
+      "count": 6400
+    },
+    {
+      "name": "Wire",
+      "path": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
+      "stackSize": 500,
+      "count": 8600
+    },
+    {
+      "name": "Iron Plate",
+      "path": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+      "stackSize": 200,
+      "count": 12850
+    },
+    {
+      "name": "Iron Rod",
+      "path": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+      "stackSize": 200,
+      "count": 1550
+    },
+    {
+      "name": "Motor",
+      "path": "/Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C",
+      "stackSize": 50,
+      "count": 1450
+    },
+    {
+      "name": "Encased Industrial Beam",
+      "path": "/Game/FactoryGame/Resource/Parts/SteelPlateReinforced/Desc_SteelPlateReinforced.Desc_SteelPlateReinforced_C",
+      "stackSize": 100,
+      "count": 1500
+    },
+    {
+      "name": "Steel Pipe",
+      "path": "/Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C",
+      "stackSize": 200,
+      "count": 3500
+    },
+    {
+      "name": "Copper Sheet",
+      "path": "/Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C",
+      "stackSize": 200,
+      "count": 3000
+    },
+    {
+      "name": "Reinforced Iron Plate",
+      "path": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C",
+      "stackSize": 100,
+      "count": 1300
+    },
+    {
+      "name": "Cable",
+      "path": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+      "stackSize": 200,
+      "count": 4650
+    },
+    {
+      "name": "Heavy Modular Frame",
+      "path": "/Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C",
+      "stackSize": 50,
+      "count": 550
+    },
+    {
+      "name": "Plastic",
+      "path": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+      "stackSize": 200,
+      "count": 2800
+    },
+    {
+      "name": "Rubber",
+      "path": "/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C",
+      "stackSize": 200,
+      "count": 2300
+    },
+    {
+      "name": "Turbo Motor",
+      "path": "/Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C",
+      "stackSize": 50,
+      "count": 500
+    },
+    {
+      "name": "Fused Modular Frame",
+      "path": "/Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C",
+      "stackSize": 50,
+      "count": 750
+    },
+    {
+      "name": "Cooling System",
+      "path": "/Game/FactoryGame/Resource/Parts/CoolingSystem/Desc_CoolingSystem.Desc_CoolingSystem_C",
+      "stackSize": 100,
+      "count": 700
+    },
+    {
+      "name": "Quickwire",
+      "path": "/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C",
+      "stackSize": 500,
+      "count": 3000
+    },
+    {
+      "name": "Alclad Aluminum Sheet",
+      "path": "/Game/FactoryGame/Resource/Parts/AluminumPlate/Desc_AluminumPlate.Desc_AluminumPlate_C",
+      "stackSize": 200,
+      "count": 6000
+    },
+    {
+      "name": "Radio Control Unit",
+      "path": "/Game/FactoryGame/Resource/Parts/ModularFrameLightweight/Desc_ModularFrameLightweight.Desc_ModularFrameLightweight_C",
+      "stackSize": 50,
+      "count": 850
+    },
+    {
+      "name": "Time Crystal",
+      "path": "/Game/FactoryGame/Resource/Parts/TimeCrystal/Desc_TimeCrystal.Desc_TimeCrystal_C",
+      "stackSize": 200,
+      "count": 550
+    },
+    {
+      "name": "Ficsite Trigon",
+      "path": "/Game/FactoryGame/Resource/Parts/FicsiteMesh/Desc_FicsiteMesh.Desc_FicsiteMesh_C",
+      "stackSize": 200,
+      "count": 850
+    },
+    {
+      "name": "Supercomputer",
+      "path": "/Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C",
+      "stackSize": 50,
+      "count": 550
+    },
+    {
+      "name": "Aluminum Casing",
+      "path": "/Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C",
+      "stackSize": 200,
+      "count": 900
+    },
+    {
+      "name": "Computer",
+      "path": "/Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C",
+      "stackSize": 50,
+      "count": 550
+    },
+    {
+      "name": "Steel Beam",
+      "path": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+      "stackSize": 200,
+      "count": 1900
+    },
+    {
+      "name": "Screws",
+      "path": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+      "stackSize": 500,
+      "count": 1300
+    },
+    {
+      "name": "Gas Filter",
+      "path": "/Game/FactoryGame/Resource/Parts/Filter/Desc_Filter.Desc_Filter_C",
+      "stackSize": 50,
+      "count": 50
+    },
+    {
+      "name": "Superposition Oscillator",
+      "path": "/Game/FactoryGame/Resource/Parts/QuantumOscillator/Desc_QuantumOscillator.Desc_QuantumOscillator_C",
+      "stackSize": 100,
+      "count": 100
+    },
+    {
+      "name": "SAM Fluctuator",
+      "path": "/Game/FactoryGame/Resource/Parts/SAMFluctuator/Desc_SAMFluctuator.Desc_SAMFluctuator_C",
+      "stackSize": 100,
+      "count": 1000
+    },
+    {
+      "name": "Neural-Quantum Processor",
+      "path": "/Game/FactoryGame/Resource/Parts/TemporalProcessor/Desc_TemporalProcessor.Desc_TemporalProcessor_C",
+      "stackSize": 100,
+      "count": 100
+    }
+  ],
+  "totalItems": 71725,
+  "totalStacks": 429
+}

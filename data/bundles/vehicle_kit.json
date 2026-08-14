@@ -1,0 +1,50 @@
+{
+  "id": "vehicle_kit",
+  "displayName": "Vehicle Emergency Kit",
+  "description": "Materials to build one Explorer or Truck from scratch, all free, with fuel.",
+  "pickable": false,
+  "items": [
+    {
+      "name": "Crystal Oscillator",
+      "path": "/Game/FactoryGame/Resource/Parts/CrystalOscillator/Desc_CrystalOscillator.Desc_CrystalOscillator_C",
+      "stackSize": 100,
+      "count": 5
+    },
+    {
+      "name": "Motor",
+      "path": "/Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C",
+      "stackSize": 50,
+      "count": 15
+    },
+    {
+      "name": "Modular Frame",
+      "path": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
+      "stackSize": 50,
+      "count": 20
+    },
+    {
+      "name": "Steel Pipe",
+      "path": "/Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C",
+      "stackSize": 200,
+      "count": 15
+    },
+    {
+      "name": "Rubber",
+      "path": "/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C",
+      "stackSize": 200,
+      "count": 50
+    },
+    {
+      "name": "Encased Industrial Beam",
+      "path": "/Game/FactoryGame/Resource/Parts/SteelPlateReinforced/Desc_SteelPlateReinforced.Desc_SteelPlateReinforced_C",
+      "stackSize": 100,
+      "count": 20
+    },
+    {
+      "name": "Packaged Liquid Biofuel",
+      "path": "/Game/FactoryGame/Resource/Parts/BioFuel/Desc_PackagedBiofuel.Desc_PackagedBiofuel_C",
+      "stackSize": 100,
+      "count": 100
+    }
+  ]
+}

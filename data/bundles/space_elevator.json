@@ -1,0 +1,81 @@
+{
+  "id": "space_elevator",
+  "displayName": "Space Elevator Project Assembly",
+  "description": "All 12 Project Assembly part types across all 5 phases. Does NOT include the Space Elevator building's own construction cost (500 Cement/250 Iron Plate/400 Iron Rod/1500 Wire) — see notes.md WIP for the planned v2 that adds it.",
+  "items": [
+    {
+      "name": "Smart Plating",
+      "path": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_1.Desc_SpaceElevatorPart_1_C",
+      "stackSize": 50,
+      "count": 1050
+    },
+    {
+      "name": "Versatile Framework",
+      "path": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_2.Desc_SpaceElevatorPart_2_C",
+      "stackSize": 50,
+      "count": 3500
+    },
+    {
+      "name": "Automated Wiring",
+      "path": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_3.Desc_SpaceElevatorPart_3_C",
+      "stackSize": 50,
+      "count": 100
+    },
+    {
+      "name": "Modular Engine",
+      "path": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_4.Desc_SpaceElevatorPart_4_C",
+      "stackSize": 50,
+      "count": 500
+    },
+    {
+      "name": "Adaptive Control Unit",
+      "path": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_5.Desc_SpaceElevatorPart_5_C",
+      "stackSize": 50,
+      "count": 100
+    },
+    {
+      "name": "Magnetic Field Generator",
+      "path": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_6.Desc_SpaceElevatorPart_6_C",
+      "stackSize": 50,
+      "count": 500
+    },
+    {
+      "name": "Assembly Director System",
+      "path": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_7.Desc_SpaceElevatorPart_7_C",
+      "stackSize": 50,
+      "count": 500
+    },
+    {
+      "name": "Thermal Propulsion Rocket",
+      "path": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_8.Desc_SpaceElevatorPart_8_C",
+      "stackSize": 50,
+      "count": 250
+    },
+    {
+      "name": "Nuclear Pasta",
+      "path": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_9.Desc_SpaceElevatorPart_9_C",
+      "stackSize": 50,
+      "count": 1100
+    },
+    {
+      "name": "Biochemical Sculptor",
+      "path": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_10.Desc_SpaceElevatorPart_10_C",
+      "stackSize": 50,
+      "count": 1000
+    },
+    {
+      "name": "Ballistic Warp Drive",
+      "path": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_11.Desc_SpaceElevatorPart_11_C",
+      "stackSize": 50,
+      "count": 200
+    },
+    {
+      "name": "AI Expansion Server",
+      "path": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_12.Desc_SpaceElevatorPart_12_C",
+      "stackSize": 50,
+      "count": 256
+    }
+  ],
+  "totalItems": 9056,
+  "totalStacks": 182
+}

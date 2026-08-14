@@ -1,0 +1,270 @@
+{
+  "_README": "Category -> buildable typePath map for the planned \"free category\" UI checkboxes. See CHATBCK/notes.md Phase 3 entry for methodology and confidence levels.",
+  "categories": {
+    "signs": {
+      "displayName": "Signs",
+      "buildables": [
+        {
+          "displayName": "Large Standalone Sign",
+          "typePath": "/Game/FactoryGame/Buildable/Factory/SignDigital/Build_StandaloneWidgetSign_Large.Build_StandaloneWidgetSign_Large_C",
+          "confidence": "confirmed",
+          "sources": [
+            "Vyls - Portal Pyramid - Main.sbp",
+            "Vyls - Portal Pyramid - Satalite.sbp",
+            "CostReductionTest.sbp"
+          ]
+        },
+        {
+          "displayName": "Large Sign Pole",
+          "typePath": "/Game/FactoryGame/Buildable/Factory/SignPole/Build_SignPole_Large.Build_SignPole_Large_C",
+          "confidence": "confirmed",
+          "sources": [
+            "Vyls - Portal Pyramid - Main.sbp",
+            "Vyls - Portal Pyramid - Satalite.sbp"
+          ]
+        }
+      ]
+    },
+    "lighting": {
+      "displayName": "Lighting",
+      "buildables": [
+        {
+          "displayName": "Floodlight (Wall)",
+          "typePath": "/Game/FactoryGame/Buildable/Factory/Floodlight/Build_FloodlightWall.Build_FloodlightWall_C",
+          "confidence": "confirmed",
+          "sources": [
+            "Vyls - Portal Pyramid - Main.sbp",
+            "Vyls - Portal Pyramid - Satalite.sbp"
+          ]
+        },
+        {
+          "displayName": "Ceiling Light",
+          "typePath": "/Game/FactoryGame/Buildable/Factory/CeilingLight/Build_CeilingLight.Build_CeilingLight_C",
+          "confidence": "confirmed",
+          "sources": [
+            "Vyls - Portal Pyramid - Main.sbp",
+            "Vyls - Portal Pyramid - Satalite.sbp"
+          ]
+        },
+        {
+          "displayName": "Street Light",
+          "typePath": "/Game/FactoryGame/Buildable/Factory/StreetLight/Build_StreetLight.Build_StreetLight_C",
+          "confidence": "confirmed",
+          "sources": [
+            "CostReductionTest.sbp"
+          ]
+        },
+        {
+          "displayName": "Lights Control Panel",
+          "typePath": "/Game/FactoryGame/Buildable/Factory/LightsControlPanel/Build_LightsControlPanel.Build_LightsControlPanel_C",
+          "confidence": "confirmed",
+          "sources": [
+            "Vyls - Portal Pyramid - Main.sbp",
+            "Vyls - Portal Pyramid - Satalite.sbp"
+          ]
+        }
+      ]
+    },
+    "dimensional_storage": {
+      "displayName": "Dimensional Storage",
+      "buildables": [
+        {
+          "displayName": "Dimensional Depot Uploader",
+          "typePath": "/Game/FactoryGame/Buildable/Factory/CentralStorage/Build_CentralStorage.Build_CentralStorage_C",
+          "confidence": "confirmed",
+          "sources": [
+            "CostReductionTest.sbp"
+          ]
+        }
+      ]
+    },
+    "power_poles_and_wall_outlets": {
+      "displayName": "Power Poles + Wall Outlets",
+      "buildables": [
+        {
+          "displayName": "Power Pole Mk.1",
+          "typePath": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk1/Build_PowerPoleMk1.Build_PowerPoleMk1_C",
+          "confidence": "confirmed",
+          "sources": [
+            "Vyls - Portal Pyramid - Main.sbp",
+            "Vyls - Portal Pyramid - Satalite.sbp",
+            "Parts.sbp"
+          ]
+        },
+        {
+          "displayName": "Wall Outlet Mk.1",
+          "typePath": "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/Build_PowerPoleWall.Build_PowerPoleWall_C",
+          "confidence": "confirmed",
+          "sources": [
+            "Vyls - Portal Pyramid - Main.sbp",
+            "Vyls - Portal Pyramid - Satalite.sbp",
+            "Parts.sbp"
+          ]
+        },
+        {
+          "displayName": "Wall Outlet Mk.3",
+          "typePath": "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/Build_PowerPoleWall_Mk3.Build_PowerPoleWall_Mk3_C",
+          "confidence": "confirmed",
+          "sources": [
+            "Vyls - Portal Pyramid - Main.sbp",
+            "Vyls - Portal Pyramid - Satalite.sbp",
+            "Parts.sbp"
+          ]
+        },
+        {
+          "displayName": "Power Pole Mk.2",
+          "typePath": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk2/Build_PowerPoleMk2.Build_PowerPoleMk2_C",
+          "confidence": "confirmed",
+          "sources": [
+            "Parts.sbp"
+          ]
+        },
+        {
+          "displayName": "Power Pole Mk.3",
+          "typePath": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk3/Build_PowerPoleMk3.Build_PowerPoleMk3_C",
+          "confidence": "confirmed",
+          "sources": [
+            "Parts.sbp"
+          ]
+        },
+        {
+          "displayName": "Wall Outlet Mk.2",
+          "typePath": "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/Build_PowerPoleWall_Mk2.Build_PowerPoleWall_Mk2_C",
+          "confidence": "confirmed",
+          "sources": [
+            "Parts.sbp"
+          ]
+        },
+        {
+          "displayName": "Double Wall Outlet Mk.1",
+          "typePath": "/Game/FactoryGame/Buildable/Factory/PowerPoleWallDouble/Build_PowerPoleWallDouble.Build_PowerPoleWallDouble_C",
+          "confidence": "confirmed",
+          "sources": [
+            "Parts.sbp"
+          ]
+        },
+        {
+          "displayName": "Double Wall Outlet Mk.2",
+          "typePath": "/Game/FactoryGame/Buildable/Factory/PowerPoleWallDouble/Build_PowerPoleWallDouble_Mk2.Build_PowerPoleWallDouble_Mk2_C",
+          "confidence": "confirmed",
+          "sources": [
+            "Parts.sbp"
+          ]
+        },
+        {
+          "displayName": "Double Wall Outlet Mk.3",
+          "typePath": "/Game/FactoryGame/Buildable/Factory/PowerPoleWallDouble/Build_PowerPoleWallDouble_Mk3.Build_PowerPoleWallDouble_Mk3_C",
+          "confidence": "confirmed",
+          "sources": [
+            "Parts.sbp"
+          ]
+        }
+      ]
+    },
+    "power_switches": {
+      "displayName": "Power Switches + Priority Power Switches",
+      "buildables": [
+        {
+          "displayName": "Priority Power Switch",
+          "typePath": "/Game/FactoryGame/Buildable/Factory/PriorityPowerSwitch/Build_PriorityPowerSwitch.Build_PriorityPowerSwitch_C",
+          "confidence": "confirmed",
+          "sources": [
+            "Vyls - Portal Pyramid - Main.sbp",
+            "Vyls - Portal Pyramid - Satalite.sbp",
+            "Parts.sbp"
+          ]
+        },
+        {
+          "displayName": "Power Switch",
+          "typePath": "/Game/FactoryGame/Buildable/Factory/PowerSwitch/Build_PowerSwitch.Build_PowerSwitch_C",
+          "confidence": "confirmed",
+          "sources": [
+            "Parts.sbp"
+          ]
+        }
+      ]
+    },
+    "power_storage": {
+      "displayName": "Power Storage",
+      "buildables": [
+        {
+          "displayName": "Power Storage Mk.1 (Battery)",
+          "typePath": "/Game/FactoryGame/Buildable/Factory/PowerStorage/Build_PowerStorageMk1.Build_PowerStorageMk1_C",
+          "confidence": "confirmed",
+          "sources": [
+            "Vyls_Infinate_Power_1e24.sbp",
+            "Battery.sbp",
+            "Vyls - Portal Pyramid - Main.sbp",
+            "Vyls - Portal Pyramid - Satalite.sbp"
+          ]
+        }
+      ]
+    },
+    "industrial_storage": {
+      "displayName": "Industrial Storage",
+      "buildables": [
+        {
+          "displayName": "Industrial Storage Container (Mk.2)",
+          "typePath": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk2/Build_StorageContainerMk2.Build_StorageContainerMk2_C",
+          "confidence": "confirmed",
+          "sources": [
+            "Industrial Storage Template.sbp",
+            "Industrial Storage.sbp",
+            "CostReductionTest.sbp"
+          ]
+        }
+      ]
+    },
+    "industrial_fluid_buffer": {
+      "displayName": "Industrial Fluid Buffer",
+      "buildables": [
+        {
+          "displayName": "Industrial Fluid Buffer",
+          "typePath": "/Game/FactoryGame/Buildable/Factory/IndustrialFluidContainer/Build_IndustrialTank.Build_IndustrialTank_C",
+          "confidence": "confirmed",
+          "sources": [
+            "Parts.sbp"
+          ]
+        }
+      ]
+    },
+    "radar_tower": {
+      "displayName": "Radar Tower",
+      "buildables": [
+        {
+          "displayName": "Radar Tower",
+          "typePath": "/Game/FactoryGame/Buildable/Factory/RadarTower/Build_RadarTower.Build_RadarTower_C",
+          "confidence": "confirmed",
+          "sources": [
+            "Vyls Radio 169.42 FM_AllFree.sbp"
+          ]
+        }
+      ]
+    },
+    "personal_elevator": {
+      "displayName": "Personal Elevator + Elevator Floor Stop",
+      "buildables": [
+        {
+          "displayName": "Personnel Elevator",
+          "typePath": "/Game/FactoryGame/Buildable/Factory/Elevator/Build_Elevator.Build_Elevator_C",
+          "confidence": "confirmed",
+          "sources": [
+            "Elevator 4 flours.sbp",
+            "Elevator Simple.sbp",
+            "Starter Base Elevator.sbp"
+          ]
+        },
+        {
+          "displayName": "Elevator Floor Stop",
+          "typePath": "/Game/FactoryGame/Buildable/Factory/Elevator/Build_ElevatorFloorStop.Build_ElevatorFloorStop_C",
+          "confidence": "confirmed",
+          "sources": [
+            "Elevator 4 flours.sbp",
+            "Elevator Simple.sbp",
+            "Starter Base Elevator.sbp"
+          ]
+        }
+      ]
+    }
+  }
+}

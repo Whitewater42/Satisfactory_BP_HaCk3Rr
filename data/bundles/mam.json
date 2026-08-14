@@ -1,0 +1,417 @@
+{
+  "id": "mam",
+  "displayName": "MAM Full Unlock",
+  "description": "All MAM research node costs (99 of 120 EST_MAM nodes — seasonal/discontinued/blank excluded, see notes.md). 68 distinct items, matches MAM_Kit.sbp exactly.",
+  "items": [
+    {
+      "name": "Raw Quartz",
+      "path": "/Game/FactoryGame/Resource/RawResources/RawQuartz/Desc_RawQuartz.Desc_RawQuartz_C",
+      "stackSize": 100,
+      "count": 50
+    },
+    {
+      "name": "Quickwire",
+      "path": "/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C",
+      "stackSize": 500,
+      "count": 3250
+    },
+    {
+      "name": "High-Speed Connector",
+      "path": "/Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C",
+      "stackSize": 100,
+      "count": 240
+    },
+    {
+      "name": "Steel Pipe",
+      "path": "/Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C",
+      "stackSize": 200,
+      "count": 520
+    },
+    {
+      "name": "Iron Rod",
+      "path": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+      "stackSize": 200,
+      "count": 150
+    },
+    {
+      "name": "Wire",
+      "path": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
+      "stackSize": 500,
+      "count": 850
+    },
+    {
+      "name": "Screws",
+      "path": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+      "stackSize": 500,
+      "count": 700
+    },
+    {
+      "name": "Caterium Ingot",
+      "path": "/Game/FactoryGame/Resource/Parts/GoldIngot/Desc_GoldIngot.Desc_GoldIngot_C",
+      "stackSize": 100,
+      "count": 50
+    },
+    {
+      "name": "Quartz Crystal",
+      "path": "/Game/FactoryGame/Resource/Parts/QuartzCrystal/Desc_QuartzCrystal.Desc_QuartzCrystal_C",
+      "stackSize": 200,
+      "count": 330
+    },
+    {
+      "name": "Reinforced Iron Plate",
+      "path": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C",
+      "stackSize": 100,
+      "count": 250
+    },
+    {
+      "name": "Crystal Oscillator",
+      "path": "/Game/FactoryGame/Resource/Parts/CrystalOscillator/Desc_CrystalOscillator.Desc_CrystalOscillator_C",
+      "stackSize": 100,
+      "count": 190
+    },
+    {
+      "name": "Motor",
+      "path": "/Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C",
+      "stackSize": 50,
+      "count": 250
+    },
+    {
+      "name": "Object Scanner",
+      "path": "/Game/FactoryGame/Resource/Equipment/GemstoneScanner/BP_EquipmentDescriptorObjectScanner.BP_EquipmentDescriptorObjectScanner_C",
+      "stackSize": 1,
+      "count": 1
+    },
+    {
+      "name": "Power Shard",
+      "path": "/Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C",
+      "stackSize": 100,
+      "count": 211
+    },
+    {
+      "name": "Time Crystal",
+      "path": "/Game/FactoryGame/Resource/Parts/TimeCrystal/Desc_TimeCrystal.Desc_TimeCrystal_C",
+      "stackSize": 200,
+      "count": 100
+    },
+    {
+      "name": "Hard Drive",
+      "path": "/Game/FactoryGame/Resource/Environment/CrashSites/Desc_HardDrive.Desc_HardDrive_C",
+      "stackSize": 100,
+      "count": 4
+    },
+    {
+      "name": "Empty Fluid Tank",
+      "path": "/Game/FactoryGame/Resource/Parts/GasTank/Desc_GasTank.Desc_GasTank_C",
+      "stackSize": 100,
+      "count": 10
+    },
+    {
+      "name": "Packaged Turbofuel",
+      "path": "/Game/FactoryGame/Resource/Parts/Turbofuel/Desc_TurboFuel.Desc_TurboFuel_C",
+      "stackSize": 100,
+      "count": 150
+    },
+    {
+      "name": "Packaged Rocket Fuel",
+      "path": "/Game/FactoryGame/Resource/Parts/RocketFuel/Desc_PackagedRocketFuel.Desc_PackagedRocketFuel_C",
+      "stackSize": 100,
+      "count": 200
+    },
+    {
+      "name": "Sulfur",
+      "path": "/Game/FactoryGame/Resource/RawResources/Sulfur/Desc_Sulfur.Desc_Sulfur_C",
+      "stackSize": 100,
+      "count": 110
+    },
+    {
+      "name": "Compacted Coal",
+      "path": "/Game/FactoryGame/Resource/Parts/CompactedCoal/Desc_CompactedCoal.Desc_CompactedCoal_C",
+      "stackSize": 100,
+      "count": 15
+    },
+    {
+      "name": "Packaged Fuel",
+      "path": "/Game/FactoryGame/Resource/Parts/Fuel/Desc_Fuel.Desc_Fuel_C",
+      "stackSize": 100,
+      "count": 50
+    },
+    {
+      "name": "Black Powder",
+      "path": "/Game/FactoryGame/Resource/Parts/GunPowder/Desc_Gunpowder.Desc_Gunpowder_C",
+      "stackSize": 200,
+      "count": 300
+    },
+    {
+      "name": "Plastic",
+      "path": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+      "stackSize": 200,
+      "count": 100
+    },
+    {
+      "name": "Coal",
+      "path": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C",
+      "stackSize": 100,
+      "count": 60
+    },
+    {
+      "name": "Mycelia",
+      "path": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Mycelia.Desc_Mycelia_C",
+      "stackSize": 200,
+      "count": 180
+    },
+    {
+      "name": "Biomass",
+      "path": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_GenericBiomass.Desc_GenericBiomass_C",
+      "stackSize": 200,
+      "count": 300
+    },
+    {
+      "name": "Copper Sheet",
+      "path": "/Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C",
+      "stackSize": 200,
+      "count": 150
+    },
+    {
+      "name": "Rifle Ammo",
+      "path": "/Game/FactoryGame/Resource/Parts/CartridgeStandard/Desc_CartridgeStandard.Desc_CartridgeStandard_C",
+      "stackSize": 500,
+      "count": 1500
+    },
+    {
+      "name": "Aluminum Casing",
+      "path": "/Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C",
+      "stackSize": 200,
+      "count": 100
+    },
+    {
+      "name": "Iron Rebar",
+      "path": "/Game/FactoryGame/Resource/Parts/SpikedRebar/Desc_SpikedRebar.Desc_SpikedRebar_C",
+      "stackSize": 100,
+      "count": 360
+    },
+    {
+      "name": "Smokeless Powder",
+      "path": "/Game/FactoryGame/Resource/Parts/GunPowder/Desc_GunpowderMK2.Desc_GunpowderMK2_C",
+      "stackSize": 100,
+      "count": 400
+    },
+    {
+      "name": "Steel Beam",
+      "path": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+      "stackSize": 200,
+      "count": 800
+    },
+    {
+      "name": "Nobelisk",
+      "path": "/Game/FactoryGame/Resource/Parts/NobeliskExplosive/Desc_NobeliskExplosive.Desc_NobeliskExplosive_C",
+      "stackSize": 50,
+      "count": 810
+    },
+    {
+      "name": "Paleberry",
+      "path": "/Game/FactoryGame/Resource/Environment/Berry/Desc_Berry.Desc_Berry_C",
+      "stackSize": 50,
+      "count": 11
+    },
+    {
+      "name": "Alien Protein",
+      "path": "/Game/FactoryGame/Resource/Parts/AlienProtein/Desc_AlienProtein.Desc_AlienProtein_C",
+      "stackSize": 100,
+      "count": 11
+    },
+    {
+      "name": "Beryl Nut",
+      "path": "/Game/FactoryGame/Resource/Environment/Nut/Desc_Nut.Desc_Nut_C",
+      "stackSize": 100,
+      "count": 35
+    },
+    {
+      "name": "Rotor",
+      "path": "/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C",
+      "stackSize": 100,
+      "count": 300
+    },
+    {
+      "name": "Bacon Agaric",
+      "path": "/Game/FactoryGame/Resource/Environment/DesertShroom/Desc_Shroom.Desc_Shroom_C",
+      "stackSize": 50,
+      "count": 4
+    },
+    {
+      "name": "Cable",
+      "path": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+      "stackSize": 200,
+      "count": 1400
+    },
+    {
+      "name": "Rubber",
+      "path": "/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C",
+      "stackSize": 200,
+      "count": 200
+    },
+    {
+      "name": "Modular Frame",
+      "path": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
+      "stackSize": 50,
+      "count": 210
+    },
+    {
+      "name": "Computer",
+      "path": "/Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C",
+      "stackSize": 50,
+      "count": 232
+    },
+    {
+      "name": "Encased Uranium Cell",
+      "path": "/Game/FactoryGame/Resource/Parts/UraniumCell/Desc_UraniumCell.Desc_UraniumCell_C",
+      "stackSize": 200,
+      "count": 10
+    },
+    {
+      "name": "AI Limiter",
+      "path": "/Game/FactoryGame/Resource/Parts/CircuitBoardHighSpeed/Desc_CircuitBoardHighSpeed.Desc_CircuitBoardHighSpeed_C",
+      "stackSize": 100,
+      "count": 260
+    },
+    {
+      "name": "Encased Industrial Beam",
+      "path": "/Game/FactoryGame/Resource/Parts/SteelPlateReinforced/Desc_SteelPlateReinforced.Desc_SteelPlateReinforced_C",
+      "stackSize": 100,
+      "count": 50
+    },
+    {
+      "name": "Heavy Modular Frame",
+      "path": "/Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C",
+      "stackSize": 50,
+      "count": 100
+    },
+    {
+      "name": "Circuit Board",
+      "path": "/Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C",
+      "stackSize": 200,
+      "count": 55
+    },
+    {
+      "name": "Purple Power Slug",
+      "path": "/Game/FactoryGame/Resource/Environment/Crystal/Desc_Crystal_mk3.Desc_Crystal_mk3_C",
+      "stackSize": 50,
+      "count": 1
+    },
+    {
+      "name": "Yellow Power Slug",
+      "path": "/Game/FactoryGame/Resource/Environment/Crystal/Desc_Crystal_mk2.Desc_Crystal_mk2_C",
+      "stackSize": 50,
+      "count": 1
+    },
+    {
+      "name": "Iron Plate",
+      "path": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+      "stackSize": 200,
+      "count": 50
+    },
+    {
+      "name": "Blue Power Slug",
+      "path": "/Game/FactoryGame/Resource/Environment/Crystal/Desc_Crystal.Desc_Crystal_C",
+      "stackSize": 50,
+      "count": 1
+    },
+    {
+      "name": "Fabric",
+      "path": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Fabric.Desc_Fabric_C",
+      "stackSize": 100,
+      "count": 135
+    },
+    {
+      "name": "Stator",
+      "path": "/Game/FactoryGame/Resource/Parts/Stator/Desc_Stator.Desc_Stator_C",
+      "stackSize": 100,
+      "count": 10
+    },
+    {
+      "name": "Polymer Resin",
+      "path": "/Game/FactoryGame/Resource/Parts/PolymerResin/Desc_PolymerResin.Desc_PolymerResin_C",
+      "stackSize": 200,
+      "count": 100
+    },
+    {
+      "name": "Silica",
+      "path": "/Game/FactoryGame/Resource/Parts/Silica/Desc_Silica.Desc_Silica_C",
+      "stackSize": 200,
+      "count": 250
+    },
+    {
+      "name": "Caterium Ore",
+      "path": "/Game/FactoryGame/Resource/RawResources/OreGold/Desc_OreGold.Desc_OreGold_C",
+      "stackSize": 100,
+      "count": 60
+    },
+    {
+      "name": "Somersloop",
+      "path": "/Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C",
+      "stackSize": 50,
+      "count": 3
+    },
+    {
+      "name": "Reanimated SAM",
+      "path": "/Game/FactoryGame/Resource/Parts/SAMIngot/Desc_SAMIngot.Desc_SAMIngot_C",
+      "stackSize": 100,
+      "count": 10
+    },
+    {
+      "name": "SAM",
+      "path": "/Game/FactoryGame/Resource/RawResources/SAM/Desc_SAM.Desc_SAM_C",
+      "stackSize": 100,
+      "count": 30
+    },
+    {
+      "name": "SAM Fluctuator",
+      "path": "/Game/FactoryGame/Resource/Parts/SAMFluctuator/Desc_SAMFluctuator.Desc_SAMFluctuator_C",
+      "stackSize": 100,
+      "count": 1761
+    },
+    {
+      "name": "Mercer Sphere",
+      "path": "/Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C",
+      "stackSize": 50,
+      "count": 98
+    },
+    {
+      "name": "Singularity Cell",
+      "path": "/Game/FactoryGame/Resource/Parts/SingularityCell/Desc_SingularityCell.Desc_SingularityCell_C",
+      "stackSize": 50,
+      "count": 50
+    },
+    {
+      "name": "Stinger Remains",
+      "path": "/Game/FactoryGame/Resource/Parts/AnimalParts/Desc_StingerParts.Desc_StingerParts_C",
+      "stackSize": 50,
+      "count": 1
+    },
+    {
+      "name": "Alien DNA Capsule",
+      "path": "/Game/FactoryGame/Resource/Parts/AlienDNACapsule/Desc_AlienDNACapsule.Desc_AlienDNACapsule_C",
+      "stackSize": 50,
+      "count": 20
+    },
+    {
+      "name": "Hatcher Remains",
+      "path": "/Game/FactoryGame/Resource/Parts/AnimalParts/Desc_HatcherParts.Desc_HatcherParts_C",
+      "stackSize": 50,
+      "count": 1
+    },
+    {
+      "name": "Spitter Remains",
+      "path": "/Game/FactoryGame/Resource/Parts/AnimalParts/Desc_SpitterParts.Desc_SpitterParts_C",
+      "stackSize": 50,
+      "count": 1
+    },
+    {
+      "name": "Hog Remains",
+      "path": "/Game/FactoryGame/Resource/Parts/AnimalParts/Desc_HogParts.Desc_HogParts_C",
+      "stackSize": 50,
+      "count": 1
+    }
+  ],
+  "totalItems": 18203,
+  "totalStacks": 161
+}
