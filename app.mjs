@@ -2,7 +2,7 @@ import { Parser } from 'https://esm.sh/@etothepii/satisfactory-file-parser@4.1.1
 
 // Bump this on every change so it's obvious (after a hard refresh / server
 // restart) whether you're looking at the latest code or a stale cache.
-const SITE_VERSION = 'v7';
+const SITE_VERSION = 'v8';
 document.getElementById('site-version').textContent = SITE_VERSION;
 
 const TABS = [

@@ -12,8 +12,8 @@ import {
   RECOMMENDED_MAX_FLOORS, RECOMMENDED_MAX_HEIGHT_M, HARD_ALTITUDE_CEILING_M,
 } from '../lib/elevator.mjs';
 
-const TEMPLATE_SBP_URL = '../templates/Elevator Smallest.sbp';
-const TEMPLATE_SBPCFG_URL = '../templates/Elevator Smallest.sbpcfg';
+const TEMPLATE_SBP_URL = new URL('../templates/Elevator Smallest.sbp', import.meta.url);
+const TEMPLATE_SBPCFG_URL = new URL('../templates/Elevator Smallest.sbpcfg', import.meta.url);
 
 export function render(container, Parser) {
   container.innerHTML = '';

@@ -9,7 +9,7 @@ import { downloadBlueprintPair } from '../lib/download.mjs';
 import { countSlotsNeeded } from '../lib/kitStacking.mjs';
 import { generatePersonalStorageKit } from '../lib/personalStorageKit.mjs';
 
-const BUNDLE_URL = '../data/bundles/equipment_kit.json';
+const BUNDLE_URL = new URL('../data/bundles/equipment_kit.json', import.meta.url);
 const CHAINSAW_NAME = 'Chainsaw';
 const CHAINSAW_FUEL_NAME = 'Packaged Liquid Biofuel';
 

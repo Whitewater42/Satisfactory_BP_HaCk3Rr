@@ -9,9 +9,9 @@ import { computeRemainingCostEntries, computeFilteredCostEntries } from '../lib/
 import { buildRecipeIndexByPath, findRecipeMachines, collectDistinctIngredients, fillSelectedIngredients } from '../lib/ingredientPicker.mjs';
 import { downloadBlueprintPair } from '../lib/download.mjs';
 
-const CATALOG_URL = '../data/catalog.json';
-const RECIPES_URL = '../data/recipes_trimmed.json';
-const FALLBACK_SBPCFG_URL = '../templates/Personal Storage 1x Template.sbpcfg';
+const CATALOG_URL = new URL('../data/catalog.json', import.meta.url);
+const RECIPES_URL = new URL('../data/recipes_trimmed.json', import.meta.url);
+const FALLBACK_SBPCFG_URL = new URL('../templates/Personal Storage 1x Template.sbpcfg', import.meta.url);
 
 // "Basic materials only" mode - user-specified list, cross-checked against
 // data/recipes_trimmed.json this session.
